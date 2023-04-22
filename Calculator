@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<script type="text/javascript">
+var a,v="";
+function val0()
+{
+
+a=document.getElementById("n0").value;
+v=v+a;
+document.getElementById("r").value=v;
+}
+function val1()
+{
+
+a=document.getElementById("n1").value;
+v=v+a;
+document.getElementById("r").value=v;
+
+}
+function val2()
+{
+
+a=document.getElementById("n2").value;
+v=v+a;
+document.getElementById("r").value=v;
+}
+function val3()
+{
+
+a=document.getElementById("n3").value;
+v=v+a;
+document.getElementById("r").value=v;
+}
+function val4()
+{
+
+a=document.getElementById("n4").value;
+v=v+a;
+document.getElementById("r").value=v;
+}
+function val5()
+{
+
+a=document.getElementById("n5").value;
+v=v+a;
+document.getElementById("r").value=v;
+}
+function val6()
+{
+
+a=document.getElementById("n6").value;
+v=v+a;
+document.getElementById("r").value=v;
+}
+function val7()
+{
+
+a=document.getElementById("n7").value;
+v=v+a;
+document.getElementById("r").value=v;
+}
+function val8()
+{
+// a=document.getElementById("n1").value;
+v=v+"8";
+document.getElementById("r").value=v;
+}
+function val9()
+{
+
+a=document.getElementById("n9").value;
+v=v+a;
+document.getElementById("r").value=v;
+}
+function add()
+{
+// a=document.getElementById("n1").value;
+v=v+"+";
+document.getElementById("r").value=v;
+}
+function sub()
+{
+// a=document.getElementById("n1").value;
+
+v=v+"-";
+document.getElementById("r").value=v;
+}
+function mul()
+{
+// a=document.getElementById("n1").value;
+v=v+"*";
+document.getElementById("r").value=v;
+}
+function div()
+{
+// a=document.getElementById("n1").value;
+v=v+"/";
+document.getElementById("r").value=v;
+}
+function eql()
+{
+v=eval(v)
+document.getElementById("r").value=v;
+}
+function clr()
+{
+v="";
+document.getElementById("r").value=v;
+}
+</script>
+</head>
+<body>
+
+<div style="background-
+color:#20235E;height:300px;width:300px;padding:5px">
+
+<center> <input type="text" id="r"
+style="height:50px;width:280px;margin-top:10px;"></center><br><br>
+<button type="button" value="7" id="n7"
+style="height:30px;width:60px;margin-right:10px;margin-left:5px"
+onclick="val7()">7</button>
+
+<button type="button" style="height:30px;width:60px;margin-
+right:10px" onclick="val8()">8</button>
+
+<button type="button" value="9"
+id="n9"style="height:30px;width:60px;margin-right:10px"
+onclick="val9()">9</button>
+<button type="button" style="height:30px;width:60px;"
+onclick="mul()">*</button><br><br>
+<button type="button" value="4" id="n4"
+style="height:30px;width:60px;margin-right:10px;margin-left:5px"
+onclick="val4()">4</button>
+<button type="button" value="5" id="n5"
+style="height:30px;width:60px;margin-right:10px"
+onclick="val5()">5</button>
+<button type="button" value="6" id="n6"
+style="height:30px;width:60px;margin-right:10px"
+onclick="val6()">6</button>
+<button type="button" style="height:30px;width:60px;"
+onclick="div()">/</button><br><br>
+
+<button type="button" value="1" id="n1"
+style="height:30px;width:60px;margin-right:10px;margin-left:5px"
+onclick="val1()">1</button>
+<button type="button" value="2" id="n2"
+style="height:30px;width:60px;margin-right:10px"
+onclick="val2()">2</button>
+<button type="button" value="3" id="n3"
+style="height:30px;width:60px;margin-right:10px"
+onclick="val3()">3</button>
+<button type="button" style="height:30px;width:60px;"
+onclick="sub()">-</button><br><br>
+<button type="button" value="0" id="n0"
+style="height:30px;width:60px;margin-right:10px;margin-left:5px"
+onclick="val0()">0</button>
+
+<button type="button" style="height:30px;width:60px;margin-
+right:10px" onclick="clr()">C</button>
+
+<button type="button" style="height:30px;width:60px;margin-
+right:10px" onclick="eql()">=</button>
+
+<button type="button" style="height:30px;width:60px;"
+onclick="add()">+</button><br><br>
+
+</div>
+</body>
+</html>
